@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Story from './components/Story'
 import Toggle from './components/Toggle'
 import UserInfo from './components/UserInfo'
+import UserPosts from './components/UserPosts'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
         <UserInfo/>
         <Story/>
         <Toggle/>
+        <UserPosts/>
       </div>
       
     </div>
